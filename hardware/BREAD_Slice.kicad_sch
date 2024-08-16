@@ -4255,7 +4255,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005fe6b3c7")
-		(property "Reference" "J1"
+		(property "Reference" "J2"
 			(at 61.6712 38.608 0)
 			(effects
 				(font
@@ -4334,7 +4334,7 @@
 		(instances
 			(project "BREAD_Slice"
 				(path "/66043bca-a260-4915-9fce-8a51d324c687"
-					(reference "J1")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -4932,7 +4932,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SparkFun-Fuse:Thermal Pad"
+		(property "Footprint" "KML-Custom:Thermal Pad"
 			(at 45.72 112.0648 0)
 			(effects
 				(font
@@ -5636,7 +5636,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fddfa880-7bbd-41e6-8613-1bdda50a16a9")
-		(property "Reference" "J2"
+		(property "Reference" "J1"
 			(at 38.1 46.99 90)
 			(effects
 				(font
@@ -5696,7 +5696,7 @@
 		(instances
 			(project "BREAD_Slice"
 				(path "/66043bca-a260-4915-9fce-8a51d324c687"
-					(reference "J2")
+					(reference "J1")
 					(unit 1)
 				)
 			)
