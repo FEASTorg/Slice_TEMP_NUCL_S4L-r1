@@ -5,43 +5,24 @@
   </a>
   <h2><a href="https://github.com/uwo-fast/Slice_TEMP"> BREAD Repository Template </a></h2>
   <!-- Labels: -->
-  <!-- First row: -->
+  <!-- Labels: -->
   <a href="https://github.com/uwo-fast/.github/blob/main/collaborating.md">
     <img src="https://img.shields.io/badge/Collaborators-Welcome-lightgreen" alt="Collaborators">
   </a>
   <a href="https://github.com/uwo-fast/.github/blob/main/contributing.md">
     <img src="https://img.shields.io/badge/Contributions-Welcome-lightgreen" alt="Contributions">
   </a>
-  <a href="https://www.appropedia.org/Category:FAST_literature_reviews">
-    <img src="https://img.shields.io/badge/Appropedia-Lit_Review-white" alt="Appropedia">
-  </a>
   <a href="https://certification.oshwa.org/">
     <img src="https://img.shields.io/badge/OSHWA-Incomplete-cc3300?style=flat-square" height="20" alt="OSHWA">
     <!-- img src="https://img.shields.io/badge/OSHWA-Certified-darkgreen?style=flat-square" height="20" alt="OSHWA" -->       <!-- img src="https://img.shields.io/badge/OSHWA-Pending-darkorange?style=flat-square" height="20" alt="OSHWA" -->
   </a>
-  <a href="https://osf.io/">
-    <img src="https://img.shields.io/badge/OSF-Project-lightblue" alt="OSF">
+  <a href="https://github.com/uwo-fast/Loaf_ESPT/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/uwo-fast/Loaf_ESPT" alt="License">
   </a>
-  <a href="https://doi.org">
-    <img src="https://img.shields.io/badge/Paper-Unsubmitted-ff0066" alt="Paper">
+  <a href="https://github.com/uwo-fast/Loaf_ESPT">
+    <img src="https://img.shields.io/github/repo-size/uwo-fast/Loaf_ESPT" alt="Repo Size">
   </a>
-  <!-- Second row: -->
-  <br>
-  <a href="https://github.com/uwo-fast/Slice_TEMP/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/uwo-fast/Slice_TEMP" alt="License">
-  </a>
-  <a href="https://github.com/uwo-fast/Slice_TEMP">
-    <img src="https://img.shields.io/github/repo-size/uwo-fast/Slice_TEMP" alt="Repo Size">
-  </a>
-  <a href="https://github.com/uwo-fast/Slice_TEMP/issues">
-    <img src="https://img.shields.io/github/issues/uwo-fast/Slice_TEMP" alt="Issues">
-  </a>
-  <a href="https://github.com/uwo-fast/Slice_TEMP/network/members">
-    <img src="https://img.shields.io/github/forks/uwo-fast/Slice_TEMP?style=social" alt="Forks">
-  </a>
-  <a href="https://github.com/uwo-fast/Slice_TEMP/stargazers">
-    <img src="https://img.shields.io/github/stars/uwo-fast/Slice_TEMP?style=social" alt="Stars">
-  </a>
+
   <!-- Short description: -->
   <h3>This is a template repository for creating BREAD modules.</h3>
 </div>
