@@ -4896,10 +4896,10 @@
 			(justify bottom mirror)
 		)
 	)
-	(gr_text "L1 (Top):Template digital components (Nano, RGB LED) and I²C signals; minimal ground pours.\n\nL2 (Inner 1): Solid ground plane; split into an upper {dblquote}gndpwr{dblquote} zone (handling 12V returns) and a lower digital ground zone, connected only at the regulator.\n\nL3 (Inner 2): Dedicated power plane; upper zone for 12V, lower zone for 5V, kept separate until the regulator.\n\nL4 (Bottom): Secondary signal routing; minimal pours, with localized copper such as the templates regulator."
-		(at 95.675 156.675 0)
+	(gr_text "L1 (Top):\n	- Template digital components (Nano, RGB LED) and I²C signals\n	- use minimal ground pours.\n\nL2 (Inner 1): \n	- Solid ground plane\n	- split into an upper {dblquote}gndpwr{dblquote} zone (handling 12V returns) and a lower digital ground zone, connected only at the regulator\n	- these can be resized to accommadate additional planes i.e. decreasing 12V/GNDPWR planes to connector edge and creating analog plane\n\nL3 (Inner 2):\n	- Dedicated power plane\n	- upper zone for 12V, lower zone for 5V, kept separate until the regulator.\n	- same as L2, can be resized to accomadate additional planes\n\nL4 (Bottom):\n	- Secondary signal routing; minimal pours, with localized copper such as the templates regulator."
+		(at 96.27 176.19 0)
 		(layer "Cmts.User")
-		(uuid "99a8bc50-535f-4b73-95cc-6adac282991b")
+		(uuid "0ef20153-c8b8-45c3-a37b-6675ea57c34a")
 		(effects
 			(font
 				(size 1.5 1.5)
