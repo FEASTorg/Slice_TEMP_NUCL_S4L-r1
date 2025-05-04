@@ -49,7 +49,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.5
+          "min_clearance": 0.4
         }
       },
       "diff_pair_dimensions": [
@@ -723,6 +723,10 @@
     [
       "66043bca-a260-4915-9fce-8a51d324c687",
       "Root"
+    ],
+    [
+      "a4d66d05-b498-454f-8d54-68b671c284b9",
+      "slice_template"
     ]
   ],
   "text_variables": {}

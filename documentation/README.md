@@ -20,3 +20,8 @@ https://www.mouser.ca/ProductDetail/Bourns/1130-561K-RC?qs=VY5%2FUM8ph%2FMBak%2F
 
 CRxx press fit terms
 https://www.phoenixcontact.com/en-us/products/printed-circuit-board-terminal-tdpt-4-2-sp-635-zb-1017521
+
+dip switches
+
+- x2: https://www.digikey.ca/en/products/detail/cts-electrocomponents/219-2MST/223191
+- x4: https://www.digikey.ca/en/products/detail/cts-electrocomponents/219-4MSTR/480303
