@@ -927,132 +927,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:NetTie_2"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "NT"
-				(at 0 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "NetTie_2"
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Net tie, 2 pins"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "net tie short"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Net*Tie*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "NetTie_2_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "NetTie_2_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "MCU_Module:Arduino_Nano_v3.x"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1678,7 +1552,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Mechanical:Heatsink_Pad"
+		(symbol "Mechanical:Heatsink_Pad_2Pin"
 			(pin_names
 				(offset 0)
 			)
@@ -1693,7 +1567,7 @@
 					)
 				)
 			)
-			(property "Value" "Heatsink_Pad"
+			(property "Value" "Heatsink_Pad_2Pin"
 				(at 0 3.81 0)
 				(effects
 					(font
@@ -1719,7 +1593,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Heatsink with electrical connection, 1 pin"
+			(property "Description" "Heatsink with electrical connection, 2 pin"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1746,7 +1620,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Heatsink_Pad_0_1"
+			(symbol "Heatsink_Pad_2Pin_0_1"
 				(polyline
 					(pts
 						(xy -0.3302 0) (xy -0.9652 0) (xy -0.9652 2.54) (xy -1.6002 2.54) (xy -1.6002 0) (xy -2.2352 0)
@@ -1775,9 +1649,9 @@
 					)
 				)
 			)
-			(symbol "Heatsink_Pad_1_1"
+			(symbol "Heatsink_Pad_2Pin_1_1"
 				(pin passive line
-					(at 0 -2.54 90)
+					(at -2.54 -2.54 90)
 					(length 1.27)
 					(name "~"
 						(effects
@@ -1787,6 +1661,24 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -2.54 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2438,7 +2330,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+5V"
+		(symbol "power:+5VD"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -2459,7 +2351,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+5V"
+			(property "Value" "+5VD"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -2485,7 +2377,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(property "Description" "Power symbol creates a global label with name \"+5VD\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -2503,7 +2395,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+5V_0_1"
+			(symbol "+5VD_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -2541,7 +2433,7 @@
 					)
 				)
 			)
-			(symbol "+5V_1_1"
+			(symbol "+5VD_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -3090,12 +2982,6 @@
 		(uuid "1131aefe-782f-4d82-ba78-16023dc761aa")
 	)
 	(junction
-		(at 35.56 100.33)
-		(diameter 0)
-		(color 0 0 0 1)
-		(uuid "16de178e-7b70-4440-983b-c42e59c46f95")
-	)
-	(junction
 		(at 54.61 49.53)
 		(diameter 0)
 		(color 0 0 0 1)
@@ -3150,7 +3036,7 @@
 		(uuid "f2293638-643d-4ffb-a78f-1e7221caf30a")
 	)
 	(junction
-		(at 31.75 100.33)
+		(at 44.45 100.33)
 		(diameter 0)
 		(color 0 0 0 1)
 		(uuid "faed2490-3384-4627-a48a-880bb5e1b540")
@@ -3245,7 +3131,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 100.33) (xy 31.75 100.33)
+			(xy 40.64 100.33) (xy 44.45 100.33)
 		)
 		(stroke
 			(width 0.2032)
@@ -3635,14 +3521,14 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 100.33) (xy 40.64 100.33)
+			(xy 35.56 99.06) (xy 35.56 100.33)
 		)
 		(stroke
 			(width 0.2032)
 			(type default)
 			(color 0 0 0 1)
 		)
-		(uuid "afec6c15-92aa-4295-9276-b9619f8608cb")
+		(uuid "b6099c55-c482-4f45-9884-6931c38c9132")
 	)
 	(polyline
 		(pts
@@ -3776,7 +3662,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 99.06) (xy 35.56 100.33)
+			(xy 40.64 99.06) (xy 40.64 100.33)
 		)
 		(stroke
 			(width 0.2032)
@@ -3820,6 +3706,17 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 100.33) (xy 35.56 100.33)
+		)
+		(stroke
+			(width 0.2032)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "e57d9eb5-4588-40b0-ba06-2e0d8aa16ab6")
+	)
+	(wire
+		(pts
 			(xy 63.5 153.67) (xy 53.34 153.67)
 		)
 		(stroke
@@ -3853,7 +3750,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 100.33) (xy 30.48 100.33)
+			(xy 44.45 100.33) (xy 45.72 100.33)
 		)
 		(stroke
 			(width 0.2032)
@@ -3956,6 +3853,16 @@
 		(uuid "21ae9c3a-7138-444e-be38-56a4842ab594")
 	)
 	(label "INT"
+		(at 16.51 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "24c14a63-21cf-4934-a7d1-e1046c51be35")
+	)
+	(label "INT"
 		(at 44.45 41.91 0)
 		(effects
 			(font
@@ -3966,14 +3873,14 @@
 		(uuid "3b90ed2a-3dc9-45b3-a217-b6e61efe96a3")
 	)
 	(label "ESTOP"
-		(at 16.51 133.35 0)
+		(at 16.51 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "3bf789b1-7f52-47b4-8a3d-cab9a6b1bade")
+		(uuid "4780a290-d25c-4459-9579-eba3f7678762")
 	)
 	(label "SYNC"
 		(at 16.51 138.43 0)
@@ -4004,16 +3911,6 @@
 			(justify right bottom)
 		)
 		(uuid "babeabf2-f3b0-4ed5-8d9e-0215947e6cf3")
-	)
-	(label "INT"
-		(at 16.51 135.89 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "dc3b3a9a-ca42-4342-9aed-073173dfd455")
 	)
 	(label "I2C_CLK"
 		(at 63.5 156.21 180)
@@ -4528,6 +4425,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5VD")
+		(at 30.48 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "19266a88-0092-4461-b6d3-2baeb8c7ec9f")
+		(property "Reference" "#PWR015"
+			(at 30.48 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5VD"
+			(at 30.48 28.194 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VD\""
+			(at 30.48 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1f9a8b1d-8ecb-42b8-9d5b-c4138fb48f54")
+		)
+		(instances
+			(project "BREAD_Slice"
+				(path "/66043bca-a260-4915-9fce-8a51d324c687"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 50.8 49.53 90)
 		(unit 1)
@@ -4688,7 +4650,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 26.67 66.04 0)
+			(at 26.67 66.294 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4801,6 +4763,75 @@
 			(project "BREAD_Slice"
 				(path "/66043bca-a260-4915-9fce-8a51d324c687"
 					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Heatsink_Pad_2Pin")
+		(at 38.1 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "27354849-b6e6-44a2-9d53-518bf53a7b64")
+		(property "Reference" "HS1"
+			(at 42.164 95.504 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Heatsink_Pad_2Pin"
+			(at 42.164 98.044 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kml-custom:Thermal Pad"
+			(at 38.4048 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.4048 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Heatsink with electrical connection, 2 pin"
+			(at 38.1 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1a57e097-46c9-4b47-a192-abb7f1be27b3")
+		)
+		(pin "1"
+			(uuid "e88d80f3-959f-4571-a1de-cf9a30a657eb")
+		)
+		(instances
+			(project ""
+				(path "/66043bca-a260-4915-9fce-8a51d324c687"
+					(reference "HS1")
 					(unit 1)
 				)
 			)
@@ -4942,6 +4973,71 @@
 			(project "BREAD_Slice"
 				(path "/66043bca-a260-4915-9fce-8a51d324c687"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5VD")
+		(at 45.72 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4d063b8e-c2ea-4ebb-9313-94b77fde202b")
+		(property "Reference" "#PWR014"
+			(at 45.72 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5VD"
+			(at 45.72 112.014 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VD\""
+			(at 45.72 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b8a9653-921b-4d38-be34-44d0aac3b0fa")
+		)
+		(instances
+			(project "BREAD_Slice"
+				(path "/66043bca-a260-4915-9fce-8a51d324c687"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -5092,74 +5188,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 55.88 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5158ad79-96f5-447b-97c7-36e86859133c")
-		(property "Reference" "#PWR02"
-			(at 55.88 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 55.88 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 55.88 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 55.88 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ea540842-c706-4357-96fa-3fa43038e48e")
-		)
-		(instances
-			(project ""
-				(path "/66043bca-a260-4915-9fce-8a51d324c687"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDPWR")
-		(at 44.45 100.33 0)
-		(mirror y)
+		(at 31.75 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5168,7 +5198,7 @@
 		(fields_autoplaced yes)
 		(uuid "553d99c6-9bbd-4c8c-9d48-07de42b6d0bc")
 		(property "Reference" "#PWR05"
-			(at 44.45 105.41 0)
+			(at 31.75 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5177,7 +5207,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 44.577 104.14 0)
+			(at 31.623 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5185,7 +5215,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 101.6 0)
+			(at 31.75 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5194,7 +5224,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 101.6 0)
+			(at 31.75 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5203,7 +5233,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 44.45 100.33 0)
+			(at 31.75 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5215,7 +5245,7 @@
 			(uuid "a01a3b74-2fbb-4945-a506-5296748b67d1")
 		)
 		(instances
-			(project "BREAD_Slice"
+			(project ""
 				(path "/66043bca-a260-4915-9fce-8a51d324c687"
 					(reference "#PWR05")
 					(unit 1)
@@ -5303,71 +5333,6 @@
 			(project ""
 				(path "/66043bca-a260-4915-9fce-8a51d324c687"
 					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 45.72 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "65b0712f-1a72-42bb-87ce-22c8612b42bd")
-		(property "Reference" "#PWR012"
-			(at 45.72 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 45.72 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 45.72 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 45.72 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 45.72 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aa5a299e-fa8e-43ba-ae9c-7ddd4bb2ff45")
-		)
-		(instances
-			(project "BREAD_Slice"
-				(path "/66043bca-a260-4915-9fce-8a51d324c687"
-					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -5505,35 +5470,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:Heatsink_Pad")
-		(at 35.56 96.52 0)
+		(lib_id "power:+5VD")
+		(at 55.88 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7a83a52c-92dd-4192-97c7-3f3526c24884")
-		(property "Reference" "HS1"
-			(at 39.37 94.6149 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Heatsink_Pad"
-			(at 39.37 97.1549 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "kml-custom:Thermal Pad"
-			(at 35.8648 97.79 0)
+		(uuid "76bf45fa-c7b8-4ac6-bcc5-41023c6a6e94")
+		(property "Reference" "#PWR012"
+			(at 55.88 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5541,8 +5487,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 35.8648 97.79 0)
+		(property "Value" "+5VD"
+			(at 55.88 66.294 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5550,8 +5504,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Heatsink with electrical connection, 1 pin"
-			(at 35.56 96.52 0)
+		(property "Datasheet" ""
+			(at 55.88 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VD\""
+			(at 55.88 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5560,12 +5523,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "a3c1dacb-bbf7-40a5-b674-8d86e01e12ba")
+			(uuid "c562be5d-5288-4208-bdb8-fce8dffcdf74")
 		)
 		(instances
 			(project ""
 				(path "/66043bca-a260-4915-9fce-8a51d324c687"
-					(reference "HS1")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -5855,74 +5818,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 30.48 31.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d40def55-e96b-43d9-a8ba-589db14014a9")
-		(property "Reference" "#PWR09"
-			(at 30.48 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 30.48 27.686 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 30.48 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 30.48 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 30.48 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "536ab73e-09ff-4ccd-9a4e-f7e6f4a14d34")
-		)
-		(instances
-			(project "BREAD_Slice"
-				(path "/66043bca-a260-4915-9fce-8a51d324c687"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 30.48 100.33 90)
-		(mirror x)
+		(at 45.72 100.33 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5930,7 +5827,7 @@
 		(dnp no)
 		(uuid "d6418121-40f9-46c7-97f8-0c93513ee53b")
 		(property "Reference" "#FLG03"
-			(at 28.575 100.33 0)
+			(at 47.625 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5939,7 +5836,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 27.94 100.33 90)
+			(at 48.26 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5948,7 +5845,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 30.48 100.33 0)
+			(at 45.72 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5957,7 +5854,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 30.48 100.33 0)
+			(at 45.72 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5966,7 +5863,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 30.48 100.33 0)
+			(at 45.72 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6063,8 +5960,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 31.75 100.33 0)
-		(mirror y)
+		(at 44.45 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6072,7 +5968,7 @@
 		(dnp no)
 		(uuid "f16f81b1-93b8-4397-8a2f-31d0d537dd70")
 		(property "Reference" "#PWR07"
-			(at 31.75 106.68 0)
+			(at 44.45 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6081,7 +5977,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 31.75 104.14 0)
+			(at 44.45 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6089,7 +5985,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 100.33 0)
+			(at 44.45 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6098,7 +5994,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 100.33 0)
+			(at 44.45 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6107,7 +6003,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 31.75 100.33 0)
+			(at 44.45 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6122,74 +6018,6 @@
 			(project "BREAD_Slice"
 				(path "/66043bca-a260-4915-9fce-8a51d324c687"
 					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:NetTie_2")
-		(at 38.1 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "fd75ebd3-3a98-4158-9319-7f5092913f7e")
-		(property "Reference" "NT1"
-			(at 38.354 101.854 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NetTie_2"
-			(at 38.354 101.854 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "NetTie:NetTie-2_SMD_Pad2.0mm"
-			(at 38.1 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 38.1 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Net tie, 2 pins"
-			(at 38.1 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "98c6a72f-b7fa-4978-b6cf-7f608a31a7dc")
-		)
-		(pin "1"
-			(uuid "3efa4089-42df-4ee2-9ac0-6adc62e149a1")
-		)
-		(instances
-			(project ""
-				(path "/66043bca-a260-4915-9fce-8a51d324c687"
-					(reference "NT1")
 					(unit 1)
 				)
 			)
