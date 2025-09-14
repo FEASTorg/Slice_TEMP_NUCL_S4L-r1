@@ -5,6 +5,7 @@ baseurl: "/Slice_TEMP" # template: ensure this gets updated when copying
 url: "https://feastorg.github.io"
 
 remote_theme: pmarsceill/just-the-docs
+color_scheme: feast # use the feast color scheme, if set it will be brought in during the CI build
 
 # Aux links for the upper right navigation
 aux_links:
