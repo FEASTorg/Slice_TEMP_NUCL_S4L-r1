@@ -1,3 +1,3 @@
 # TODO
 
-- figure out how to run ci and docs on all hardware template variations
+- [ ] split into separate template directories such that there is one hardware/ directory per repository
