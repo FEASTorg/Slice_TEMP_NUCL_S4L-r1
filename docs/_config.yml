@@ -6,9 +6,16 @@ url: "https://feastorg.github.io"
 
 remote_theme: pmarsceill/just-the-docs
 
+# Aux links for the upper right navigation
+aux_links:
+  "Return to FEASTorg":
+    - "//feastorg.github.io"
+
+# Makes Aux links open in a new tab. Default is false
+aux_links_new_tab: false
+
 footer_content: >
-  <a href="https://feastorg.github.io">← Return to FEAST Main Site</a><br>
-  Copyright © 2025 FEASTorg. MIT License.
+  Copyright © 2025 <a href="https://github.com/FEASTorg" target="_blank">FEASTorg</a>. See repository license for details.
 
 plugins:
   - jekyll-feed
