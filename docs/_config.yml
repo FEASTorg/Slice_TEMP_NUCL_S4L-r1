@@ -9,14 +9,11 @@ color_scheme: feast # apply feast scheme; custom theme assets pulled from main s
 
 # Aux links for the upper right navigation
 aux_links:
-  "Return to FEASTorg":
+  "← Return to FEASTorg":
     - "//feastorg.github.io"
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: false
-
-footer_content: >
-  Copyright © 2025 <a href="https://github.com/FEASTorg" target="_blank">FEASTorg</a>. See repository license for details.
 
 plugins:
   - jekyll-feed
