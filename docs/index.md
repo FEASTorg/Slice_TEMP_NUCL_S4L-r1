@@ -1,9 +1,10 @@
 ---
-title: "Slice TEMP Documentation"
-description: "Overview and entry page for Slice TEMP project documentation."
+title: "Slice TEMP Documentation" # template: ensure this gets updated when copying
+description: "Overview and entry page for Slice TEMP project documentation." # template: ensure this gets updated when copying
 nav_exclude: true
 ---
 
+<!-- template: ensure this gets updated when copying -->
 Welcome to the Slice TEMPlate project documentation.
 
 ## Board Renders
