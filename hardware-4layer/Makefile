@@ -2,8 +2,8 @@ KIBOT?=kibot
 DEBUG?=
 OUT_DIR=Generated
 EXTRA_OPS=--banner -1 --log $(OUT_DIR)/kibot.log $(DEBUG)
-PRJ_SCH=BREAD_Slice.kicad_sch
-PRJ_PCB=BREAD_Slice.kicad_pcb
+PRJ_SCH=BREAD_Slice.kicad_sch # template: ensure this gets updated when copying
+PRJ_PCB=BREAD_Slice.kicad_pcb # template: ensure this gets updated when copying
 
 .PHONY: erc drc sch_fab pcb_fab erc_and_fab drc_and_fab
 
@@ -20,7 +20,7 @@ sch_fab:
 pcb_fab:
 	$(KIBOT) $(EXTRA_OPS) -e $(PRJ_SCH) -b $(PRJ_PCB) -d $(OUT_DIR) \
 		print_pcb gerbers excellon_drill gerber_drills position \
-		board_top_png board_in1_png board_in2_png board_bottom_png
+		board_top_png board_bottom_png
 
 erc_and_fab:
 	$(KIBOT) $(EXTRA_OPS) -e $(PRJ_SCH) -b $(PRJ_PCB) -d $(OUT_DIR) \
