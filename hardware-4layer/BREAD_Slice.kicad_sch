@@ -3490,6 +3490,10 @@
 		(uuid "e5749643-25b3-4a65-9547-0316bdb2b8e1")
 	)
 	(no_connect
+		(at 24.13 137.16)
+		(uuid "1ee416ac-31b3-4a6d-a93b-3bc75b7484d4")
+	)
+	(no_connect
 		(at 24.13 181.61)
 		(uuid "1f045a2b-e1f7-4edc-81f4-fe1a3f9aec64")
 	)
