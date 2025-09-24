@@ -45,7 +45,7 @@ defaults:
 # Just the Docs theme settings
 just_the_docs:
   logo:
-    alt: "Slice TEMP" # template: ensure this gets updated when copying
+    alt: "Slice TEMP NUCL S4L r1" # template: ensure this gets updated when copying
   show_nav_level: 2
   collections:
     enable: false

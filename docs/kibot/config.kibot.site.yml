@@ -1,4 +1,4 @@
-project_name: "Slice TEMP" # template: ensure this gets updated when copying
+project_name: "Slice TEMP NUCL S4L r1" # template: ensure this gets updated when copying
 output_dir: "Generated"
 artifacts:
   - Schematic.pdf
